@@ -1,0 +1,75 @@
+/* Include and edit! */
+
+.timelineContainer {
+    color: #6D2E46;
+}
+
+.timelineContainer .timelineHeader h3, .timelineContainer .timelineFooter h3 {
+    margin: 0;
+}
+
+.timelineContainer .timelineBody {
+    position: relative;
+    padding: 20px 0 20px 0
+}
+
+.timelineContainer .timelineBody::before {
+    content: '';
+    width: 2px;
+    height: 100%;
+    background: #000;
+    left: 10px;
+    top: 0;
+    position: absolute;
+}
+
+.timelineContainer .timelineBody .timelineEvent {
+    position: relative;
+    display: block;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.timelineContainer .timelineBody .timelineEvent::before {
+    content: '';
+    width: 10px;
+    height: 2px;
+    background: #000;
+    left: -10px;
+    top: 25px;
+    position: absolute;
+}
+
+.timelineContainer .timelineBody .timelineEvent:last-child {
+    margin-bottom: 0;
+}
+
+.timelineContainer .timelineBody .timelineEvent .timelineEventContent {
+    display: inline-block;
+    background-color: #F6CA83;
+    border: 2px solid #A26769;
+    padding: 10px;
+}
+
+.timelineContainer .timelineBody .timelineEvent .timelineEventContent .timelineTitle {
+    margin: 0;
+    font-size: 1.5rem;
+    border-bottom: 1px solid #A26769;
+    margin-bottom: 10px;
+}
+
+.timelineContainer .timelineBody .timelineEvent .timelineEventContent .timelineTitle a {
+    color: #6D2E46;
+    text-decoration: none;
+    margin: 0 10px 0 0;
+}
+
+.timelineContainer .timelineBody .timelineEvent .timelineEventContent .timelineTitle small{
+    font-size: 0.8rem;
+    font-style: italic;
+}
+
+.timelineContainer .timelineBody .timelineEvent .timelineEventContent .timelineDesc {
+    margin: 0;
+    font-size: 1rem;
+}
