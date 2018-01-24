@@ -14,21 +14,21 @@ var events = {
         },
         {
             "title": "February",
-            "date": "Jan 2018",
+            "date": "Feb 2018",
             "link": "https://google.ca/",
-            "desc": "January is the first month of the year."
+            "desc": "February is the second month of the year."
         },
         {
             "title": "March",
-            "date": "Jan 2018",
+            "date": "Mar 2018",
             "link": "https://google.ca/",
-            "desc": "January is the first month of the year."
+            "desc": "March is the third month of the year."
         },
         {
             "title": "April",
-            "date": "Jan 2018",
+            "date": "Apr 2018",
             "link": "https://google.ca/",
-            "desc": "January is the first month of the year."
+            "desc": "April is the fourth month of the year."
         }
     ]
 };
@@ -38,7 +38,5 @@ var conf = {
     "start": "January 1st, 2018",
     "end": "December 31st, 2019"
 }
-
-
 
 var timeline = new Timeline(conf, events);
